@@ -5,6 +5,16 @@
       "tensorShape": [512, 64],
       "tensorPath": "oss_data/cent_3.tsv",
       "metadataPath": "oss_data/label_512_new.tsv"
+    },
+    {
+      "tensorName": "CENT4",
+      "tensorShape": [512, 64],
+      "tensorPath": "oss_data/cent_3.tsv",
+      "metadataPath": "oss_data/label_512_new.tsv",
+      "sprite": {
+          "imagePath": "oss_data/mnist_10k_sprite.png",
+          "singleImageDim": [28, 28]
+      }
     }
   ],
   "modelCheckpointPath": "Demo datasets"
