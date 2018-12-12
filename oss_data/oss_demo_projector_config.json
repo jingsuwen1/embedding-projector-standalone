@@ -1,6 +1,16 @@
 {
   "embeddings": [
     {
+      "tensorName": "CENT3DIM",
+      "tensorShape": [512, 3],
+      "tensorPath": "oss_data/cent_3_dim.tsv",
+      "metadataPath": "oss_data/label_512_new.tsv",
+      "sprite": {
+          "imagePath": "oss_data/mnist_10k_sprite.png",
+          "singleImageDim": [28, 28]
+      }
+    },
+    {
       "tensorName": "CENT3",
       "tensorShape": [512, 64],
       "tensorPath": "oss_data/cent_3.tsv",
